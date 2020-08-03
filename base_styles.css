@@ -1,7 +1,7 @@
 body {
     font-family: Montserrat, sans-serif;
     margin: 0;
-    backgrounaor: #F8F8F8;
+    background-color: #F8F8F8;
 }
 
 a {
@@ -149,24 +149,31 @@ p {
 .stills {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
+    margin: 5px 8px;
 }
 
 .display {
     display: none;
     position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: -425px;
 }
 
 .primary {
-    width: 50%;
+    width: 250px;
+    height: 137.3px;
 }
 
 .secondary {
-    width: 80%;
+    width: 675px;
+    height: 370.9px;
 }
 
 .dropdown:hover .display {
