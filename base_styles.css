@@ -179,3 +179,8 @@ p {
 .dropdown:hover .display {
     display: block;
 }
+
+.demo {
+    width: 550px;
+    height: 302.1px;
+}
