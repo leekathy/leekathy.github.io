@@ -6,11 +6,98 @@
     <script src="/socket.io/socket.io.js"></script>
     <script src="/lib/client/updater.js" defer></script>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">  
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="base_styles.css">
   </head>
   <body>
-    <a href="rabbits">Down the rabbit hole</a>
-    <a href="http://computemm.herokuapp.com">Compute</a>
-  </body>
-  
+    <header>
+      <div>
+        <span id="name">Kathy Lee</span>
+      </div>
+      <div>
+        <span id="descr">leekathy&ltat>stanford&ltdot>edu</span>
+      </div>
+    </header>
+    <main>
+      <div id="projects" class="section">
+        <div class="heading">
+          <span>PROJECTS</span>
+        </div>
+        <div class="entry">
+          <div class="wrapper">
+            <div>
+              <div class="intro">
+                <div>
+                  <span class="name">Compute</span><br>
+                </div>
+                <div>
+                  <a href="http://computemm.herokuapp.com" class="button">website</a>
+                  <a href="https://github.com/leekathy/compute"><i class='fab fa-github icon'></i></a>
+                </div>
+              </div>
+              <span class="recap">A simple market-making web app</span>
+            </div>
+            <div class="summary">
+              <span><strong>JS, Node.js with Express (for REST API), MongoDB</strong></span>
+              <p>A responsive SPA supporting player signup (salted, hashed), login, stats updates, leaderboards, and user-defined prompts contributions.</p>
+              <p>In each 90 sec game iteration, the player makes and adjusts bid-ask spreads around a single numerical trivia prompt. The computer responds to each by buying at the ask price, selling at the bid price, or refusing to trade in a rational(ish) decision.</p>
+              <p>For more on how to play, visit the website; for more on the mathematics behind the game, visit the github repo.</p>
+            </div>
+          </div>
+          <div class="gif">
+            <div>
+              <span>Demo</span>
+            </div>
+            <p>Hello2</p>
+            <div>
+              <span>Stills</span>
+            </div>
+            <div class="stills">
+              <div class="dropdown">
+                <img class="primary" src="compute1.jpg" alt="login/signup page">
+                <div class="display">
+                  <img class="secondary" src="compute1.jpg" alt="login/signup page">
+                </div>
+              </div>
+              <div class="dropdown">
+                <img class="primary" src="compute2.jpg" alt="game rules page">
+                <div class="display">
+                  <img class="secondary" src="compute2.jpg" alt="game rules page">
+                </div>
+              </div>
+              <div class="dropdown">
+                <img class="primary" src="compute3.jpg" alt="game page">
+                <div class="display">
+                  <img class="secondary" src="compute3.jpg" alt="game page">
+                </div>
+              </div>
+              <div class="dropdown">
+                <img class="primary" src="compute4.jpg" alt="game result page">
+                <div class="display">
+                  <img class="secondary" src="compute4.jpg" alt="game result page">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="about" class="section">
+        <div class="heading">
+          <span>About Me</span>
+        </div>
+        <div id="me">
+          <p>Hi! I'm a sophomore at Stanford intending to major in CS. I'm interested in the intersection of CS, math, and finance.</p>
+          <div id="contact">
+            <div>
+              <span>Email: leekathy&ltat>stanford&ltdot>edu</span>
+            </div>
+            <div> 
+              <span>LinkedIn:</span>
+              <a href="https://www.linkedin.com/in/kathy-lee-05886418b/"><i class='fab fa-linkedin-in'></i></di>
+</div>
+</div>
+</div>
+</div>
+</main>
+</body>

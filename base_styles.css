@@ -1,0 +1,174 @@
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    backgrounaor: #F8F8F8;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+    font-size: large;
+}
+
+a:hover {
+    color: #23527c;
+    text-decoration: underline; 
+}
+
+span {
+    line-height: 1.5em;
+}
+
+p {
+    margin: 0.35em 0;
+    font-size: medium;
+}
+
+/* Header styling */
+
+header {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    background-color: #F0F0F0;
+}
+
+header > div {
+    margin: auto;
+}
+
+#name {
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+#descr {
+    font-size: x-large;
+    color: #8C1515;
+}
+
+/* Main styling */
+
+main {
+    display: flex;
+    margin: 40px 30px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    padding: 0 30px 30px 30px;
+    background-color: #E8E8E8;
+    border-radius: 15px;
+}
+
+#projects {
+    flex-grow: 3;
+}
+
+#about {
+    max-width: 420px;
+    flex-grow: 1;
+    margin-top: 30px;
+}
+
+.heading {
+    margin: 20px auto;
+    font-size: x-large;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* Projects styling */
+
+.entry {
+    display: flex;
+    align-items: flex-start;
+}
+
+.entry > div {
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    padding: 20px 30px 15px 30px;
+}
+
+#me {
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    padding: 10px 20px 15px 20px;
+}
+
+.wrapper {
+    flex: 1 1 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.recap {
+    font-weight: medium;
+    font-weight: bold;
+}
+
+.intro, #contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro > div {
+    white-space: nowrap;
+}
+
+p {
+    font-size: medium;
+    line-height: 1.3em;
+}
+
+.gif {
+    flex: 1 1 0px;
+    width:45%;
+    margin-left: 20px;
+}
+
+.gif > div {
+    text-align: center;
+}
+
+.gif > div > span {
+    font-size: large;
+    font-weight: bold;
+}
+
+.stills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.display {
+    display: none;
+    position: absolute;
+}
+
+.primary {
+    width: 50%;
+}
+
+.secondary {
+    width: 80%;
+}
+
+.dropdown:hover .display {
+    display: block;
+}
