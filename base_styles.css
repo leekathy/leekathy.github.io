@@ -163,17 +163,32 @@ p {
     position: absolute;
     z-index: 1;
     top: 0px;
-    left: -425px;
+}
+
+.display4 {
+    left: -428px;
+}
+
+.display3 {
+    left: -286px;
+}
+
+.display2 {
+    left: -144px;
+}
+
+.display1 {
+    left: -2px;
 }
 
 .primary {
-    width: 250px;
-    height: 137.3px;
+    width: 138px;
+    height: 75.8px;
 }
 
 .secondary {
-    width: 675px;
-    height: 370.9px;
+    width: 566px;
+    height: 311px;
 }
 
 .dropdown:hover .display {
