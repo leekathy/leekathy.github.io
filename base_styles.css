@@ -160,6 +160,8 @@ p {
     display: none;
     position: absolute;
     z-index: 1;
+    top: 0px;
+    left: -450px;
 }
 
 .primary {
