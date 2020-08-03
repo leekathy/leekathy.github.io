@@ -1,3 +1,4 @@
+/* General styling */
 body {
     font-family: Montserrat, sans-serif;
     margin: 0;
@@ -22,13 +23,13 @@ span {
 p {
     margin: 0.35em 0;
     font-size: medium;
+    line-height: 1.3em;
 }
 
 /* Header styling */
-
 header {
     display: flex;
-    padding: 30px;
+    padding: 10px 0 20px 0;
     flex-direction: column;
     background-color: #F0F0F0;
 }
@@ -48,10 +49,9 @@ header > div {
 }
 
 /* Main styling */
-
 main {
     display: flex;
-    margin: 40px 30px;
+    margin: 30px;
     align-items: center;
     flex-direction: column;
 }
@@ -76,13 +76,13 @@ main {
 }
 
 .heading {
-    margin: 20px auto;
+    margin: 12px auto;
     font-size: x-large;
     font-weight: bold;
     white-space: nowrap;
 }
 
-/* Projects styling */
+/* Specifics styling */
 
 .entry {
     display: flex;
@@ -124,11 +124,6 @@ main {
 
 .intro > div {
     white-space: nowrap;
-}
-
-p {
-    font-size: medium;
-    line-height: 1.3em;
 }
 
 .gif {
